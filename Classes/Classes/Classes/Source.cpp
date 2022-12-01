@@ -5,6 +5,8 @@
 
 int main()
 {
+	std::cout << "Welcome to the item class demo" << std::endl;
+
 	ClassExample::Item gem("Ruby", 0.6, ClassExample::Dimension{0.1f, 0.2f}, 1000);
 
 	std::cout << gem.GetName() << " weighs " << gem.GetWeight() << std::endl;
