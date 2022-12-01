@@ -4,6 +4,7 @@
 
 namespace ClassExample
 {
+	// Represents an in game item
 	class Item
 	{
 		std::string name;
